@@ -88,7 +88,7 @@
                         <td>${customer.email}</td>
                         <td>${customer.mobile}</td>  
                         <td>
-                            <button data-id="${customer.id}" class="btn btn-sm editBtn btn-outline-success">Edit</button>
+                            <button data-id="${customer.id}" data-bs-toggle="modal" data-bs-target="#update-modal" class="btn btn-sm editBtn btn-outline-success">Edit</button>
                             <button data-id="${customer.id}" class="btn deleteBtn btn-sm btn-outline-danger">Delete</button>
                         </td>          
                     </tr>`
